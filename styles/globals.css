@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+html ,body{
+	margin:0;
+	padding:0;
+	height:100%;
+	background: rgb (0,82, 127);
+background: -moz-linear-gradient (81deg, rgba(0,82,127,1) 0%, rgba(0,154,188,1) 50%, rgba(0,212,255, 1) 100%) ; background: -webkit-linear-gradient(81deg, rgba(0,82,127,1) 0%, rgba(0,154,188,1) 50%, rgba(0,212,255,1) 100%); background: linear-gradient(81deg, rgba (0,82,127,1) 0%, rgba(0,154,188,1) 50%, rgba(0,212,255,1) 100%) ;
+filter: progid: DXImageTransform. Microsoft.gradient （startColorstr="#00527f"， endColorstr=" #00d4ff"， GradientType=1）；
+}
+
+*{
+	font-family: 'Nunito', sans-serif;
+}
+
+#menubar{
+	width:calc(100vw - 40px);
+	background-color:#242424;
+	display:flex;
+	padding:20px;
+	height:30px;
+}
+#title{
+	font-family: 'Nunito', sans-serif;
+	font-size:25px;
+	font-weight:500;
+	text-decoration:none;
+	color:white;
+}
+#parentbox{
+	display:flex;
+	flex-wrap:wrap;
+}
+.buttonstyle{
+    width: calc(100vw / 3);
+    height: calc((100vh - 70px) / 3);
+    border:5px solid black;
+    background-color:white;
+}
+
+.hero{
+	display:flex;
+    justify-content: center;
+}
+
+.main_title{
+	font-size:100px;
+}
+
+
+.button_a{
+	text-decoration: none;
+	background-color: skyblue;
+	border: 3px solid darkblue;
+	font-size: 35px;
+	color: black;
+	border-radius: 30px;
+	padding: 20px 25px 20px 25px;
+	margin:0 10px 0 0;
+}
+
+.centering{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:calc(100vh - 70px);
+}
+
+.my-canvas{
+	position:absolute;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tic- Tac-Toe</title>
+</head>
+<link rel="stylesheet" href="/tictactoe/styles/globals.css" />
+<body>
+<nav id="menubar">
+<a href="/tictactoe/" id="title">Tic Tac Toe</a>
+</nav>
+<div class="centering">
+<div>
+<h1 class="main_title">&#33;&#33;&#33;Player X has won&#33;&#33;&#33;</h1>
+<div class="hero"><a class="button_a" href="/tictactoe">Play Again&#33;</a>
+<a class="button_a" href="/tictactoe/menu">Go to Menu&#33;</a>
+</div>
+</div>
+<script type="module">
+import confetti from 'https://cdn.skypack.dev/canvas-confetti';
+confetti();
+var audio = new Audio('/tictactoe/static/win.wav');
+audio.play();
+</script>
+</div>
+</body>
+</html>
